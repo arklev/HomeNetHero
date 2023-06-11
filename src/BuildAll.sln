@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeNetHeroApp", "HomeNetHero\HomeNetHeroApp.csproj", "{19DF29D9-5A41-4A20-9253-82002F79948F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19DF29D9-5A41-4A20-9253-82002F79948F}.Debug|x64.ActiveCfg = Debug|x64
+		{19DF29D9-5A41-4A20-9253-82002F79948F}.Debug|x64.Build.0 = Debug|x64
+		{19DF29D9-5A41-4A20-9253-82002F79948F}.Release|x64.ActiveCfg = Release|x64
+		{19DF29D9-5A41-4A20-9253-82002F79948F}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF29AC7D-E28E-4795-87A6-B26D05D05248}
+	EndGlobalSection
+EndGlobal
