@@ -4,7 +4,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
     <Platforms>x64</Platforms>
     <BaseOutputPath>..\..\build\</BaseOutputPath>
     <PackageIcon>icon.ico</PackageIcon>
@@ -20,6 +20,18 @@
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="GUI\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Nett" Version="0.15.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Serilog" Version="3.0.1" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="4.1.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
   </ItemGroup>
 
 </Project>
